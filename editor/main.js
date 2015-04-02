@@ -1,6 +1,6 @@
 module.exports = {
     load: function (plugin) {
-        plugin.on('about:open', function () {
+        plugin.on('fire-about:open', function () {
             plugin.openPanel('default');
         });
     },
