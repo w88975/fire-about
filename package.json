@@ -8,7 +8,7 @@
         "menus": [
             {
                 "path": "Fireball/About Fireball",
-                "message": "about:open"
+                "message": "fire-about:open"
             }
         ],
         "panels": {

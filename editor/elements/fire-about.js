@@ -1,10 +1,10 @@
 var Remote = require('remote');
-var app = Remote.require('app');
+var App = Remote.require('app');
 
 Polymer({
     version: "",
 
     created: function () {
-        this.version = app.getVersion();
+        this.version = App.getVersion();
     },
 });
